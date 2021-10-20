@@ -13,18 +13,18 @@
         <mobile_title>Create New</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_697615_hair_care_salon_table</name>
-        <order>2</order>
+        <order>100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_697615_hair_care.customer,x_697615_hair_care.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-20 13:21:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2e7f72752f1330104b05d7a72799b66e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Create New</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
         <sys_update_name>sys_app_module_2e7f72752f1330104b05d7a72799b66e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-20 13:21:55</sys_updated_on>
+        <sys_updated_on>2021-10-20 14:14:35</sys_updated_on>
         <timeline_page/>
         <title>Create New</title>
         <uncancelable>false</uncancelable>

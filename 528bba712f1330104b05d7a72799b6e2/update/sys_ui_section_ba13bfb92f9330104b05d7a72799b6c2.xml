@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="New Section" section_id="6afff6752f1330104b05d7a72799b663" sys_domain="global" table="x_697615_hair_care_salon_table" version="3" view="Admin">
+    <sys_ui_section caption="For employee only" section_id="ba13bfb92f9330104b05d7a72799b6c2" sys_domain="global" table="x_697615_hair_care_salon_table" version="3" view="Admin">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_price_2</element>
+            <element>price</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-10-20 13:24:07</sys_created_on>
-            <sys_id>bafff6752f1330104b05d7a72799b6b4</sys_id>
+            <sys_created_on>2021-10-20 17:07:30</sys_created_on>
+            <sys_id>8b13bfb92f9330104b05d7a72799b6d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_697615_hair_care_salon_table" sys_domain="global" view="6afff6752f1330104b05d7a72799b65e">6afff6752f1330104b05d7a72799b663</sys_ui_section>
+            <sys_ui_section caption="For employee only" display_value="For employee only" name="x_697615_hair_care_salon_table" sys_domain="global" view="7e13bfb92f9330104b05d7a72799b6bd">ba13bfb92f9330104b05d7a72799b6c2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-10-20 13:24:07</sys_updated_on>
+            <sys_updated_on>2021-10-20 17:07:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>New Section</caption>
+            <caption>For employee only</caption>
             <header>false</header>
             <name>x_697615_hair_care_salon_table</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-10-20 13:24:06</sys_created_on>
+            <sys_created_on>2021-10-20 17:07:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6afff6752f1330104b05d7a72799b663</sys_id>
+            <sys_id>ba13bfb92f9330104b05d7a72799b6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_697615_hair_care_salon_table</sys_name>
             <sys_overrides/>
             <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
             <sys_policy/>
             <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
-            <sys_update_name>sys_ui_section_6afff6752f1330104b05d7a72799b663</sys_update_name>
+            <sys_update_name>sys_ui_section_ba13bfb92f9330104b05d7a72799b6c2</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-10-20 13:24:06</sys_updated_on>
+            <sys_updated_on>2021-10-20 17:07:30</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Admin" name="Admin">6afff6752f1330104b05d7a72799b65e</view>
+            <view display_value="Admin" name="Admin">7e13bfb92f9330104b05d7a72799b6bd</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="salon table" max_length="40" name="x_697615_hair_care_salon_table" type="collection">
+    <element label="Hair Care" max_length="40" name="x_697615_hair_care_salon_table" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Date &amp; Time" max_length="40" name="date_time" type="glide_date_time"/>
+        <element label="Email ID" max_length="40" name="email_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Phone Number" max_length="40" name="phone_number" type="integer"/>
+        <element label="Price" mandatory="true" max_length="40" name="price" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Service" max_length="40" name="service" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Color" value="color"/>
@@ -22,7 +23,7 @@
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_2" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Calendar Date/Time" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
