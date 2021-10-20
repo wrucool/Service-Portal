@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_697615_hair_care_salon_table">x_697615_hair_care_salon_table</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SAL</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 13:15:34</sys_created_on>
+        <sys_id>650e32352f1330104b05d7a72799b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAL</sys_name>
+        <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
+        <sys_update_name>sys_number_650e32352f1330104b05d7a72799b621</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 13:15:34</sys_updated_on>
+    </sys_number>
+</record_update>
