@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_calendar_date_time_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Thank you Note</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   alert("Thank you for your booking at Hair Care! See you soon!");
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 12:43:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3fc4d8a2f9730104b05d7a72799b6b1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Thank you Note</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
+        <sys_update_name>sys_script_client_a3fc4d8a2f9730104b05d7a72799b6b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 15:33:49</sys_updated_on>
+        <table>x_697615_hair_care_salon_table</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

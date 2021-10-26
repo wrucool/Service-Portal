@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Hair Care" max_length="40" name="x_697615_hair_care_salon_table" type="collection">
+    <element label="Hair Care" max_length="40" name="x_697615_hair_care_salon_table" sizeclass="11" type="collection">
+        <element label="Check Stylist" max_length="40" name="chk_stylist" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Date &amp; Time" max_length="40" name="date_time" type="glide_date_time"/>
         <element label="Email ID" max_length="40" name="email_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Price" mandatory="true" max_length="40" name="price" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Service" max_length="40" name="service" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Other" mandatory="true" max_length="40" name="other" type="string">
             <choice>
-                <element inactive_on_update="false" label="Color" value="color"/>
-                <element inactive_on_update="false" label="Hair-Cut " value="hair_cut"/>
-                <element inactive_on_update="false" label="Other" value="other"/>
-                <element inactive_on_update="false" label="Style" value="style"/>
-                <element inactive_on_update="false" label="Texture" value="texture"/>
+                <element inactive_on_update="false" label="Brow Shaping" sequence="0" value="brow shaping"/>
+                <element inactive_on_update="false" label="Clarifying Treatment" sequence="1" value="clarifying treatment"/>
+                <element inactive_on_update="false" label="Bang Trim" sequence="2" value="bang trim"/>
+                <element inactive_on_update="false" label="Shampoo Only" sequence="3" value="shampoo only"/>
+            </choice>
+        </element>
+        <element label="Price" mandatory="true" max_length="40" name="price" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="hair-cut" label="Service" max_length="40" name="service" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Hair-Cut " sequence="0" value="hair_cut"/>
+                <element inactive_on_update="false" label="Hair-Cut" sequence="0" value="hair-cut"/>
+                <element inactive_on_update="false" label="Color" sequence="1" value="color"/>
+                <element inactive_on_update="false" label="Style" sequence="2" value="style"/>
+                <element inactive_on_update="false" label="Texture" sequence="3" value="texture"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Stylist" max_length="40" name="stylist" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Anu" value="anu"/>
-                <element inactive_on_update="false" label="John" value="john"/>
-                <element inactive_on_update="false" label="Nikky" value="nikky"/>
-                <element inactive_on_update="false" label="Roma" value="roma"/>
+                <element inactive_on_update="false" label="Anu" sequence="0" value="anu"/>
+                <element inactive_on_update="false" label="John" sequence="1" value="john"/>
+                <element inactive_on_update="false" label="Nikky" sequence="2" value="nikky"/>
+                <element inactive_on_update="false" label="Roma" sequence="3" value="roma"/>
+                <element inactive_on_update="false" label="Any" sequence="4" value="any"/>
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>

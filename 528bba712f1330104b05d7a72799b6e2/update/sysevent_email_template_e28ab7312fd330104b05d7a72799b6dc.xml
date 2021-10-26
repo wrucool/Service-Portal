@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
     <sysevent_email_template action="INSERT_OR_UPDATE">
         <collection>x_697615_hair_care_salon_table</collection>
-        <email_layout/>
+        <email_layout display_value="Demo Layout - Light">993a2d81c33112002841b63b12d3aed4</email_layout>
         <message/>
         <message_html/>
         <message_list/>
@@ -13,14 +13,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-10-20 17:40:19</sys_created_on>
         <sys_id>e28ab7312fd330104b05d7a72799b6dc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Appointment details</sys_name>
         <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
         <sys_update_name>sysevent_email_template_e28ab7312fd330104b05d7a72799b6dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-20 18:51:31</sys_updated_on>
+        <sys_updated_on>2021-10-20 19:02:44</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>
