@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Hair Care" max_length="40" name="x_697615_hair_care_salon_table" sizeclass="11" type="collection">
+    <element label="Hair Care" max_length="40" name="x_697615_hair_care_salon_table" sizeclass="15" type="collection">
         <element label="Check Stylist" max_length="40" name="chk_stylist" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Date &amp; Time" max_length="40" name="date_time" type="glide_date_time"/>
         <element label="Email ID" max_length="40" name="email_id" type="string"/>
