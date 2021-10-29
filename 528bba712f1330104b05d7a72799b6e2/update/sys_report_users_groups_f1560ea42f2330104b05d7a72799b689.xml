@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Daily Report">c0d873bd2f9330104b05d7a72799b66c</report_id>
+        <report_id display_value="Daily Report">7d560ea42f2330104b05d7a72799b688</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-20 17:32:25</sys_created_on>
-        <sys_id>48d873bd2f9330104b05d7a72799b66c</sys_id>
+        <sys_created_on>2021-10-28 22:15:35</sys_created_on>
+        <sys_id>f1560ea42f2330104b05d7a72799b689</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>c0d873bd2f9330104b05d7a72799b66c</sys_name>
+        <sys_name>7d560ea42f2330104b05d7a72799b688</sys_name>
         <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
-        <sys_update_name>sys_report_users_groups_48d873bd2f9330104b05d7a72799b66c</sys_update_name>
+        <sys_update_name>sys_report_users_groups_f1560ea42f2330104b05d7a72799b689</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-20 17:32:25</sys_updated_on>
+        <sys_updated_on>2021-10-28 22:15:35</sys_updated_on>
         <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
     </sys_report_users_groups>
 </record_update>

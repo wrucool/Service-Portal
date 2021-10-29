@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Hair Care" max_length="40" name="x_697615_hair_care_salon_table" sizeclass="15" type="collection">
-        <element label="Check Stylist" max_length="40" name="chk_stylist" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Date &amp; Time" max_length="40" name="date_time" type="glide_date_time"/>
+    <element label="Hair Care" max_length="40" name="x_697615_hair_care_salon_table" sizeclass="16" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date &amp; Time" mandatory="true" max_length="40" name="date_time" type="glide_date_time"/>
         <element label="Email ID" max_length="40" name="email_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Other" mandatory="true" max_length="40" name="other" type="string">
             <choice>
@@ -14,7 +13,7 @@
             </choice>
         </element>
         <element label="Price" mandatory="true" max_length="40" name="price" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="hair-cut" label="Service" max_length="40" name="service" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="hair-cut" label="Service" mandatory="true" max_length="40" name="service" type="choice">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Hair-Cut " sequence="0" value="hair_cut"/>
                 <element inactive_on_update="false" label="Hair-Cut" sequence="0" value="hair-cut"/>
@@ -24,7 +23,7 @@
                 <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Stylist" max_length="40" name="stylist" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="any" label="Stylist" max_length="40" name="stylist" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Anu" sequence="0" value="anu"/>
                 <element inactive_on_update="false" label="John" sequence="1" value="john"/>
@@ -34,7 +33,6 @@
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element attributes="edge_encryption_enabled=true" label="Calendar Date/Time" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-10-20 18:29:35</sys_created_on>
-            <sys_id>d1e54c0a2fd330104b05d7a72799b692</sys_id>
+            <sys_created_on>2021-10-29 00:15:32</sys_created_on>
+            <sys_id>7ec1e6e82f6330104b05d7a72799b6e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_697615_hair_care_salon_table" sys_domain="global" view="7e13bfb92f9330104b05d7a72799b6bd">3e13bfb92f9330104b05d7a72799b6c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-10-20 18:29:35</sys_updated_on>
+            <sys_updated_on>2021-10-29 00:15:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-10-20 18:29:35</sys_created_on>
-            <sys_id>55e54c0a2fd330104b05d7a72799b692</sys_id>
+            <sys_created_on>2021-10-29 00:15:32</sys_created_on>
+            <sys_id>3ac1e6e82f6330104b05d7a72799b6e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_697615_hair_care_salon_table" sys_domain="global" view="7e13bfb92f9330104b05d7a72799b6bd">3e13bfb92f9330104b05d7a72799b6c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-10-20 18:29:35</sys_updated_on>
+            <sys_updated_on>2021-10-29 00:15:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>email_id</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-10-20 18:29:35</sys_created_on>
-            <sys_id>d5e54c0a2fd330104b05d7a72799b692</sys_id>
+            <sys_created_on>2021-10-29 00:15:32</sys_created_on>
+            <sys_id>bec1e6e82f6330104b05d7a72799b6e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_697615_hair_care_salon_table" sys_domain="global" view="7e13bfb92f9330104b05d7a72799b6bd">3e13bfb92f9330104b05d7a72799b6c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-10-20 18:29:35</sys_updated_on>
+            <sys_updated_on>2021-10-29 00:15:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-10-20 18:29:35</sys_created_on>
-            <sys_id>59e54c0a2fd330104b05d7a72799b692</sys_id>
+            <sys_created_on>2021-10-29 00:15:32</sys_created_on>
+            <sys_id>36c1e6e82f6330104b05d7a72799b6e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_697615_hair_care_salon_table" sys_domain="global" view="7e13bfb92f9330104b05d7a72799b6bd">3e13bfb92f9330104b05d7a72799b6c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-10-20 18:29:35</sys_updated_on>
+            <sys_updated_on>2021-10-29 00:15:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,41 +60,55 @@
             <element>service</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-10-20 18:29:35</sys_created_on>
-            <sys_id>d9e54c0a2fd330104b05d7a72799b692</sys_id>
+            <sys_created_on>2021-10-29 00:15:32</sys_created_on>
+            <sys_id>bac1e6e82f6330104b05d7a72799b6e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_697615_hair_care_salon_table" sys_domain="global" view="7e13bfb92f9330104b05d7a72799b6bd">3e13bfb92f9330104b05d7a72799b6c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-10-20 18:29:35</sys_updated_on>
+            <sys_updated_on>2021-10-29 00:15:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-29 00:15:32</sys_created_on>
+            <sys_id>32c1e6e82f6330104b05d7a72799b6e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_697615_hair_care_salon_table" sys_domain="global" view="7e13bfb92f9330104b05d7a72799b6bd">3e13bfb92f9330104b05d7a72799b6c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-10-29 00:15:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_time</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-10-20 18:29:35</sys_created_on>
-            <sys_id>5de54c0a2fd330104b05d7a72799b692</sys_id>
+            <sys_created_on>2021-10-29 00:15:32</sys_created_on>
+            <sys_id>b6c1e6e82f6330104b05d7a72799b6e8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_697615_hair_care_salon_table" sys_domain="global" view="7e13bfb92f9330104b05d7a72799b6bd">3e13bfb92f9330104b05d7a72799b6c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-10-20 18:29:35</sys_updated_on>
+            <sys_updated_on>2021-10-29 00:15:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>stylist</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-10-20 18:29:35</sys_created_on>
-            <sys_id>dde54c0a2fd330104b05d7a72799b692</sys_id>
+            <sys_created_on>2021-10-29 00:15:32</sys_created_on>
+            <sys_id>3ec1e6e82f6330104b05d7a72799b6e8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_697615_hair_care_salon_table" sys_domain="global" view="7e13bfb92f9330104b05d7a72799b6bd">3e13bfb92f9330104b05d7a72799b6c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-10-20 18:29:35</sys_updated_on>
+            <sys_updated_on>2021-10-29 00:15:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
