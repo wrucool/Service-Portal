@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>service</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>check service change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	alert("You Have changed the Service from "+ oldValue +" to "+ newValue +".");
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 14:55:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ef08c5a2f9f30104b05d7a72799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>check service change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
+        <sys_update_name>sys_script_client_2ef08c5a2f9f30104b05d7a72799b639</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 14:55:58</sys_updated_on>
+        <table>x_697615_hair_care_salon_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</application>
+        <file_path/>
+        <instance_id>dbc02cfedb39281052dd2f17d49619a3</instance_id>
+        <instance_name>dev105346</instance_name>
+        <name>sys_script_client_2ef08c5a2f9f30104b05d7a72799b639</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;service&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;check service change&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	alert("You Have changed the Service from "+ oldValue +" to "+ newValue +".");
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-21 14:55:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2ef08c5a2f9f30104b05d7a72799b639&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;check service change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hair Care" source="x_697615_hair_care"&gt;528bba712f1330104b05d7a72799b6e2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hair Care"&gt;528bba712f1330104b05d7a72799b6e2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_2ef08c5a2f9f30104b05d7a72799b639&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-21 14:55:58&lt;/sys_updated_on&gt;&lt;table&gt;x_697615_hair_care_salon_table&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2040456644</payload_hash>
+        <record_name>check service change</record_name>
+        <reverted_from/>
+        <source>0150c3752f1330104b05d7a72799b6ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 14:55:59</sys_created_on>
+        <sys_id>869e189e2fdf30104b05d7a72799b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ca35a08890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-21 14:55:59</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>ce9e189e5bdf301022ec4255d04aaedc</update_guid>
+        <update_guid_history>ce9e189e5bdf301022ec4255d04aaedc:-2040456644</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-30 02:04:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3c32cd5351cc4fe4a32ca1fb44e93f90</sys_id>
+        <sys_metadata>2ef08c5a2f9f30104b05d7a72799b639</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>check service change</sys_name>
+        <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
+        <sys_parent display_value="Hair Care">c50efef12f1330104b05d7a72799b691</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
+        <sys_scope_delete display_value="">8613ca1557084312a4af8713f901d144</sys_scope_delete>
+        <sys_update_name>sys_script_client_2ef08c5a2f9f30104b05d7a72799b639</sys_update_name>
+        <sys_update_version display_value="sys_script_client_2ef08c5a2f9f30104b05d7a72799b639">869e189e2fdf30104b05d7a72799b6dd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-30 02:04:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

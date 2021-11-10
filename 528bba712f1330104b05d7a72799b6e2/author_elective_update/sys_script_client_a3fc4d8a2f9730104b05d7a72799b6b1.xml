@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_calendar_date_time_1</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Thank you Note</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   alert("Thank you for your booking at Hair Care! See you soon!");
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-21 12:43:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3fc4d8a2f9730104b05d7a72799b6b1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Thank you Note</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
+        <sys_update_name>sys_script_client_a3fc4d8a2f9730104b05d7a72799b6b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-26 01:18:24</sys_updated_on>
+        <table>x_697615_hair_care_salon_table</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view>default</view>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</application>
+        <file_path/>
+        <instance_id>dbc02cfedb39281052dd2f17d49619a3</instance_id>
+        <instance_name>dev105346</instance_name>
+        <name>sys_script_client_a3fc4d8a2f9730104b05d7a72799b6b1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_calendar_date_time_1&lt;/field&gt;&lt;global&gt;false&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Thank you Note&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   alert("Thank you for your booking at Hair Care! See you soon!");
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-21 12:43:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a3fc4d8a2f9730104b05d7a72799b6b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Thank you Note&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hair Care" source="x_697615_hair_care"&gt;528bba712f1330104b05d7a72799b6e2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hair Care"&gt;528bba712f1330104b05d7a72799b6e2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a3fc4d8a2f9730104b05d7a72799b6b1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-26 01:18:24&lt;/sys_updated_on&gt;&lt;table&gt;x_697615_hair_care_salon_table&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view&gt;default&lt;/view&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1505450784</payload_hash>
+        <record_name>Thank you Note</record_name>
+        <reverted_from/>
+        <source>616293af2fdfb0104b05d7a72799b6fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-26 01:18:24</sys_created_on>
+        <sys_id>ba639faf2fdfb0104b05d7a72799b6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cba2d51500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-26 01:18:24</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>36639faf5adfb0103460d44b5f538de9</update_guid>
+        <update_guid_history>36639faf5adfb0103460d44b5f538de9:-1505450784,98472056bd1370103254183da7868d31:407770381,0d072c16f6137010570981a1553ba8ee:127068691,b026a016771370107a8bc1a4addd7a57:1164509889,9155a8927f137010674b2cd961a37399:-706271800,3a30041acf9f30109f0834c943825c3b:877495020</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-30 02:21:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1c8b858e89b54f4c97c63b45205e8984</sys_id>
+        <sys_metadata>a3fc4d8a2f9730104b05d7a72799b6b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Thank you Note</sys_name>
+        <sys_package display_value="Hair Care" source="x_697615_hair_care">528bba712f1330104b05d7a72799b6e2</sys_package>
+        <sys_parent display_value="Hair Care">c50efef12f1330104b05d7a72799b691</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hair Care">528bba712f1330104b05d7a72799b6e2</sys_scope>
+        <sys_scope_delete display_value="">8613ca1557084312a4af8713f901d144</sys_scope_delete>
+        <sys_update_name>sys_script_client_a3fc4d8a2f9730104b05d7a72799b6b1</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a3fc4d8a2f9730104b05d7a72799b6b1">ba639faf2fdfb0104b05d7a72799b6e9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-30 02:21:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
